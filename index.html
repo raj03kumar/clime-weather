@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clime Weather</title>
+    <!-- FAVICON -->
+    <link rel="icon" href="icons/favicon.ico">
+
+    <!-- google fonts api -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <!-- fontawesome api -->
+    <script src="https://kit.fontawesome.com/62a509939c.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="weather-app">
+        <div class="container">
+            <h3 class="brand zoom">clime WEATHER</h3>
+            <div>
+                <h1 class="temp zoom">16&#176;</h1>
+                <div class="city-time">
+                    <h1 class="name zoom">New Delhi</h1>
+                    <small>
+                        <span class="time">06:09</span>
+                        -
+                        <span class="date">
+                            Friday Jan 06
+                        </span>
+                    </small>
+                </div>
+                <div class="weather">
+                    <img src="/icons/day/113.png" alt="icon" class="icon zoom" width="50" height="50">
+                    <span class="condition">Cloudy</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="panel">
+            <form action="" id="locationInput">
+                <input type="text" class="search" placeholder="Search Location...">
+                <button type="submit" class="submit">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+            
+            <ul class="cities">
+                <li class="city">New York</li>
+                <li class="city">New Delhi</li>
+                <li class="city">California</li>
+                <li class="city">Paris</li>
+                <li class="city">Tokyo</li>
+                <li class="city">Dubai</li>
+            </ul>
+            
+            <ul class="details">
+                <h4>Weather Details</h4>
+                <li>
+                    <span>Cloudy</span>
+                    <span class="cloud">89%</span>
+                </li>
+                <li>
+                    <span>Humidity</span>
+                    <span class="humidity">64%</span>
+                </li>
+                <li>
+                    <span>Wind</span>
+                    <span class="wind">8km/h</span>
+                </li>
+            </ul>
+            <p class="copyright">&copy Designed by Raj Kumar with weatherapi</p>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

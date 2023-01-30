@@ -88,8 +88,8 @@ function fetchWeatherData(){
         // get the date and time from the city and extract the day, month, year and time into individual varaibles
         const date=data.location.localtime;
         const y=parseInt(date.substr(0,4));
-        const m=parseInt(date.substr(5,2));
-        const d=parseInt(date.substr(8,2));
+        const d=parseInt(date.substr(5,2));
+        const m=parseInt(date.substr(8,2));
         const time=date.substr(11);
 
         /*Reformat the date into something more appealing and add it to the page

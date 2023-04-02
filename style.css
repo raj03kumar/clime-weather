@@ -173,6 +173,28 @@ h1, h3{
     font-size: small;
 }
 
+/* Custom Scrollbar*/
+
+/* width */
+::-webkit-scrollbar{
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track{
+    background: #ebd4b9;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb{
+    background: #e76e05;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover{
+    background: #d6431a;
+}
+
 /* for responsive design */
 @media screen and (max-width: 800px){
     .panel, .container{
